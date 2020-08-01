@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RadioGroup;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
     public void Procesar (View vista){
         try{
         RadioGroup optOperaciones=(RadioGroup)findViewById(R.id.optOperaciones);
+
+
         TextView tempval=(TextView)findViewById(R.id.txtnum1);
         double num1= Double.parseDouble( tempval.getText().toString());
 
