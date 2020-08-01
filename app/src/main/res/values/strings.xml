@@ -5,5 +5,13 @@
     <string name="num_2">Num 2</string>
     <string name="calcular">Calcular</string>
     <string name="lblrespuesta">Respuesta</string>
+    <string name="_0">0</string>
+    <string name="_0">0</string>
+    <string name="suma">Suma</string>
+    <string name="resta">Resta</string>
+    <string name="multiplicaci_n">Multiplicación</string>
+    <string name="divici_n">Divición</string>
+    <string name="exponente">Exponente</string>
+    <string name="porcentaje">Porcentaje</string>
 
 </resources>
