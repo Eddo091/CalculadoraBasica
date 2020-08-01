@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">CalculadoraBasica</string>
+    <string name="Saludo">name="Saludo">Bienvenidos </string>
+    <string name="num_1">Num 1</string>
+    <string name="num_2">Num 2</string>
+    <string name="calcular">Calcular</string>
+    <string name="lblrespuesta">Respuesta</string>
+
 </resources>
