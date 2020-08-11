@@ -85,18 +85,15 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="174dp"
         android:layout_marginLeft="174dp"
-        android:layout_marginTop="361dp"
+        android:layout_marginTop="424dp"
         android:layout_marginEnd="218dp"
         android:layout_marginRight="218dp"
-        android:layout_marginBottom="402dp"
         android:onClick="Procesar"
         android:text="@string/calcular"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtnum2"
-        app:layout_constraintVertical_bias="0.01" />
+        app:layout_constraintTop_toBottomOf="@+id/txtnum2" />
 
     <TextView
         android:id="@+id/lblresp"
@@ -114,8 +111,8 @@
 
     <RadioGroup
         android:id="@+id/optOperaciones"
-        android:layout_width="208dp"
-        android:layout_height="202dp"
+        android:layout_width="268dp"
+        android:layout_height="267dp"
         app:layout_constraintBottom_toTopOf="@+id/btncalcular"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -157,6 +154,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/porcentaje" />
+
+        <RadioButton
+            android:id="@+id/rbnMod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo" />
+
+        <RadioButton
+            android:id="@+id/rbnFactoreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/factoreo" />
     </RadioGroup>
 
 </>

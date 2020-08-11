@@ -48,6 +48,12 @@ public class MainActivity extends AppCompatActivity {
             case R.id.rbnPorcen:
                 respuesta = (num1 / num2) * num1;
                 break;
+            case R.id.rbnMod:
+                respuesta= num1%num2;
+                break;
+            case R.id.rbnFactoreo:
+                respuesta= num1*(num1+1)*(Math.pow(num2,2)-3);
+                break;
         }
             tempval=(TextView)findViewById(R.id.lblresp);
             tempval.setText("Respuesta: " + respuesta);
